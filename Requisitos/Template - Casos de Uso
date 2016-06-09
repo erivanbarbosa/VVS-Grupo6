@@ -1,0 +1,16 @@
+Template para Documentação de Requisitos na Forma de Casos de Uso:
+
+1. Nome
+2. Identificador
+3. Importância
+4. Sumário
+5. Ator Primário
+5.1. Atores Secundários
+6. Pré-condições
+7. Fluxo Principal
+8. Fluxos Alternativos
+9. Fluxos de Exceção
+10. Pós-condições
+11. Regras de Negócio
+12. Histórico
+13. Notas de Implementação
