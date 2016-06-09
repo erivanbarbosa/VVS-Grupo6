@@ -1,0 +1,54 @@
+# Descrição Trabalho Final VVS 2016/1.
+
+Processo de Seleção
+A empresa AdmiteRH, é uma empresa que atua no segmento de prestação de serviços de recrutamento de recursos humanos para diversas outras empresas. 
+
+Esta empresa recebe periodicamente, solicitação das suas empresas clientes o recrutamento de recursos humanos, de acordo com a quantidade de vagas disponíveis e as exigências necessárias para o preenchimento destas vagas.
+
+No momento atual, existem as seguintes vagas disponíveis:
+
+1. 50 Vagas para Engenheiro, com salário entre R$ 5.000,00 e R$ 10.000,00;
+2. 20 Vagas para Técnico em Informática, com salário entre R$ 2.000,00 e R$ 3.000,00;
+3. 15 vagas para Motorista com salário entre R$ 1.000,00 e R$ 2.000,00;
+4. 10 vagas para Médico com salário entre R$ 10.000,00 e R$ 15.000,00.
+
+Todas estas vagas foram oferecidas pela empresa XYZ Ltda. Esta empresa exige as seguintes condições para o preencimento das vagas.
+
+1. Para o cargo de engenheiro é necessária a apresentação da carteira profissional do Crea;
+2. Para o cargo de Motorista deve-se apresentar a CNH;
+3. Para o cargo de Médico deve-se apresentar a carteira do CRM.
+4. Os candidatos devem possuir idade entre 18 e 75 anos;
+5. Se a nacionalidade do candidato for “Brasileira”, deve apresentar o CPF, válido. Se for “Estrangeira”, deve apresentar o passaporte.
+6. Se o candidato for do sexo masculino e possuir idade inferior a 45 anos, deve-se apresentar o documento de reservista.
+7. O Nome do candidato deve ter um tamanho mínimo de 5 caracteres e máximo de 100. Não pode conter caracteres especiais. Não pode ser nulo e nem ser um sequencia de espaços em branco;
+8. Para todos os cargos é exigido um tempo mínimo de experiência no cargo de 12 meses. O valor do salário é diferente levando em conta o tempo de experiência. A variação do salário de cada cargo e dada da seguinte forma:
+8.1. Engenheiro é acrescido R$ 1.000,00 a cada ano de experiência.
+  8.1.1. 1 ano = 5000,00
+  8.1.2. 2 anos = 6.000,00
+  8.1.3. 3 anos = 7.000,00
+  8.1.4. 4 anos = 8.000,00
+  8.1.5. 5 anos = 9.000,00
+  8.1.6. > 5 anos = 10.000,00
+8.2. Técnico em Informática – Acrescido de R$ 500,00 por ano de experiência:
+  8.2.1. 1 ano = 2000,00;
+  8.2.2. 2 anos = 2500,00
+  8.2.3. >= 3 anos = 3000,00
+8.3. Motorista – Acrescido de 250,00 por ano de experiência.
+  8.3.1. 1 ano = 1000,00
+  8.3.2. 2 anos = 1250,00
+  8.3.3. 3 anos = 1500,00
+  8.3.4. 4 anos = 1750,00
+  8.3.5. >= 5 anos = 2000,00
+8.4. Médico – Acrescido de 2500,00 por ano de experiência:
+  8.4.1. 1 ano = 10000,00
+  8.4.2. 2 anos = 12500,00
+  8.4.3. >= 3 anos = 15000,00
+
+Os candidatos se inscreverão pela internet manifestando seu desejo de ocupar uma determinada vaga, informando seu nome completo, data de nascimento, filiação, documentação pessoal (cpf, RG, ctps), endereço completo. Informa ainda o tempo de experiência que tem no cargo e a pretenção salarial que almeija. 
+Durante o cadastro do candidato o sistema deve apresentar o tempo de experiência exigida e a oferta salarial do cargo, se o candidato não tiver o tempo de experiência ou não aceitar a oferta, o cadastro não poderá ser efetivado.
+
+Caso as vagas estejam todas preenchidas, os candidatos podem optar por ficar numa lista de espera, quando novas vagas surgirem serão notificados.
+
+Diariamente o sistema confere a lista de candidatos inscritos, os que preenchem os requisitos são convocados para entrevista e entrega de documentação comprobatória. Se a documentação estiver incompleta o candidato é eliminado. Se o candidato for aprovado na entrevista, será efetivado na vaga desejada.
+
+Solicita-se a implementação de um sistema para gerenciar o preenchimento destas vagas.
